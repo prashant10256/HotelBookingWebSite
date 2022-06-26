@@ -6,15 +6,26 @@
 </head>
 <body>
     <div>
-        <img id="logo" src="assests/images/logo.png"alt="logo" height="150" width="150">
+        <a href="index.html"><img src="assests/images/logo.png" class="logo" alt="logo" height="150" width="150" ></a>
         <a id="login" href="login.html" target="_blank">Login</a>
         <div>
          <!--Header div-->
          <div><img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt=""> 
+                <form class="contact" action="payment.html" method="get">
+                    <p><label for="adults">Adults:</label>
+                      <input type="number" id="adults" name="adults" min="1" max="5" required style="width: 10%;" required/><br>
+                    <label for="name">Name:</label>
+                      <input type="text" id="name" name="name" required style="width: 10%;" required/><br>
+                     <label for="fromdate">From Date:</label> 
+                      <input type="date" id="fromdate" name="fromdate" required style="width: 10%;" required/><br>
+                     <label for="todate">To Date:</label>
+                      <input type="date" id="todate" name="todate" required/><br>
+                     <label for="total">Total:</label>
+                      <input type="number" id="total" name="total"/></form>
+                     <a href="payment.html">
+                       <button id="login"><p style="padding:3px;font-size: 10px;">Book Now</p></button></a>
+                     </form>
             <br>
-            <p>
-             <a href="payment.html">Book Now</a>
-            <p>
             <h2>Radisson Blu Hotel</h2>
             <p>5 Star</p>
             <p>AMENITIES
