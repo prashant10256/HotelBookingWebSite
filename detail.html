@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+  <link rel="stylesheet" href="./styles/common.css">
+  <link rel="stylesheet" href="./styles/detail.css">
     <title>Document</title>
 </head>
 <body>
     <div>
-        <a href="index.html"><img src="assests/images/logo.png" class="logo" alt="logo" height="150" width="150" ></a>
+        <a href="index.html"><img src="assests/images/logo.png" class="logo" alt="logo" height="60" width="60" ></a>
         <a id="login" href="login.html" target="_blank">Login</a>
-        <div>
+        <div class="content-div">
          <!--Header div-->
-         <div><img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt=""> 
-                <form class="contact" action="payment.html" method="get">
+          <div class="image-div">
+            <img class="hotel-image" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Hotel-Radisson-Blu">
+          </div>
+          <div class="formDetails">
+            <form class="contact" action="payment.html" method="get">
                     <p><label for="adults">Adults:</label>
                       <input type="number" id="adults" name="adults" min="1" max="5" required style="width: 10%;" required/><br>
                     <label for="name">Name:</label>
@@ -25,6 +29,8 @@
                      <a href="payment.html">
                        <button id="login"><p style="padding:3px;font-size: 10px;">Book Now</p></button></a>
                      </form>
+                     </div>
+                    </div>
             <br>
             <h2>Radisson Blu Hotel</h2>
             <p>5 Star</p>
