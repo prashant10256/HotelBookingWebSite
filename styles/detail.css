@@ -8,6 +8,7 @@ header{
 }
 footer{
     background-color: rosybrown;
+    
 }
 .image-body{
     background-color:lightgrey;
@@ -18,4 +19,17 @@ footer{
 }
 .list{
     margin-left: 2%;
+}
+#login{
+    margin-left: 95%;
+}
+.contact{
+    margin-bottom: 10%;
+    
+}
+.imgalign{
+    margin-left: 95%;
+}
+.dumytext{
+    margin-left: 45%;
 }

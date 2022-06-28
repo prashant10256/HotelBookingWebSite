@@ -37,4 +37,20 @@ footer{
     padding-left: 2%;
     padding-right: 2%;
 }
+.socialimg{
+    padding-left: 95%;
+}
+.dumytext{
+    padding-left: 45%;
+}
+.contactus{
+    align-items: center;
+}
+#logo{
+    align-items: center;
+}
+#login{
+    margin-left: 95%;
+    align-items: center;
+}
 

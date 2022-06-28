@@ -52,3 +52,16 @@ body{
 footer{
     background-color: rosybrown;
 }
+.login{
+    margin-left:95% ;
+    align-items: center;
+    margin-bottom:50% ;
+}
+.view{
+    margin-left: 38%;
+    
+}
+.img-row{
+    margin-left: 60%;
+    flex-direction: row;
+}

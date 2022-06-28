@@ -34,3 +34,31 @@ padding-bottom: 20px;
     height: fit-content;
     position: relative;
 }
+#header-login{
+    margin-left: 95%;
+    align-items: center;
+    
+}
+#header-logo{
+    align-items: center;
+    
+}
+#search-bar-input{
+    margin-left: 33%;
+    border-radius: 12px;
+    -ms-text-size-adjust: 16%;
+    width: 450px;
+    height: 30px;
+background-color: #f1f1f1;
+border-color: solid transparent;
+}
+#contact-us{
+align-items: center;
+}
+.socialMedia{
+    margin-left: 95%;
+    align-items: center;
+}
+.dumytxt{
+    margin-left: 45%;
+}
