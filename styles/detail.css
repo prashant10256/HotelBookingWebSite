@@ -1,4 +1,21 @@
 .hotel-image{
     height: 500px;
     width: 500px;
+    margin-top: 1%;
+}
+header{
+    background-color: rosybrown;
+}
+footer{
+    background-color: rosybrown;
+}
+.image-body{
+    background-color:lightgrey;
+}
+.body-align{
+    margin-left:4%;
+    margin-right: 4%;
+}
+.list{
+    margin-left: 2%;
 }

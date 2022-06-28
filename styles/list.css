@@ -1,5 +1,54 @@
-.hotel-image{
+/*.hotel-image{
     height: 200px;
     width: 250px;
-    
+    background-color: gray;
+}
+body{
+    background-color :#e0e0e0;
+    width: 80px;
+    width: 100px;
+    margin-left: 2%;
+}
+header{
+    background-color: rosybrown;
+
+}
+hotel-imgage 
+{ 
+    height: 200px; 
+    width: 250px; 
+ 
+} 
+#list-view 
+{ 
+    margin: 2%; 
+} 
+.image-container 
+{ 
+    background-color:rgb(132,136,139); 
+    width: 40%; 
+}*/
+.hotelImg 
+{ 
+    height: 200px; 
+    width: 250px; 
+ 
+} 
+#list-view 
+{ 
+    margin: 2%; 
+} 
+.imageContainer 
+{ 
+    background-color:rgb(132,136,139); 
+    width: 40%; 
+}
+.logo-img{
+    background-color: rosybrown;
+}
+body{
+    background-color:#e0e0e0 ;
+}
+footer{
+    background-color: rosybrown;
 }

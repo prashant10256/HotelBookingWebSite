@@ -5,39 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="">
-    <link rel="stylesheet" href="login.html">
+    <link rel="stylesheet" href="./style/login.html">
+    <link rel="stylesheet" href="./styles/index.css">
     <title>Index</title>
-    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <!--header start-->
     <header>
         <div class="header-div">
-           <div id="logo-div"><img id="header-logo" src="assests/images/logo.png"alt="logo" height="60px" width="60px"></div>
+           <div id="logo-div"><img id="header-logo" src="assests/images/logo.png"alt="logo" height="60px" width="60px">
            <div id="login-div"><a href="login.html"><p id="header-login">Login</p></a></div>
-            </div>
-            <div>
-                <input type="text" placeholder="City">
-                <div class="row">
+           <input id="search-bar-input" type="text" placeholder="City"><br>
+           <div class="search-bar-and-background-image-div" ><br>
+           
+        <div id="search-result">
             </div>
             </div>
         </header>
-        <div class="city-images">
-            <!--Content div-->
-            <a href="list.html" target="_blank"><img class="image-size" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg"  height="300px" width="300px"></a>
-        
-        
-           <img class="image-size" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg"  height="300px" width="300px">
-           
-           
-            <img class="image-size" src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg"  height="300pz" width="300px">
-           
-           
-            <img class="image-size" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg" height="300px" width="300px">
-        </div>
-        <a href="index.html">Viewmore->></a>
         <br>
-        <a href="contact.html">ContactUs</a>
+        <!--Content div-->
+        <div class="city-cards-div">
+            <div class="city-image-div">
+                <!--<img class="city-image" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg" height="250px" width="300px" alt="Delhi">
+                <a href="list.html"><div class="overlaytext">Delhi</a>
+            
+           <img class="city-image" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg" height="250px" width="300px" alt="goa">
+
+            <img class="city-image" src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg" height="250px" width="300px" alt="hydrabad">
+           
+           
+            <img class="city-image" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg" height="250px" width="300px"  alt="Kolkata">-->
+            <a href="list.html"><img class="city-image" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg" height="200px" width="250px" alt="Delhi"></a>
+                    <a href="list.html"><div class="overlaytext"></div></a>
+                </div>
+                <div class="city-image-div">
+                    <img class="city-image" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg"  height="200px" width="250px" alt="Goa">
+                    <div class="overlaytext"></div>
+                </div>
+                <div class="city-image-div">
+                    <img class="city-image" src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg"  height="200px" width="250px" alt="Hyderabad">
+                    <div class="overlaytext"></div>
+                </div>
+                <div class="city-image-div">
+                    <img class="city-image" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg"  height="200px" width="250px" alt="Kolkata">
+                    <div class="overlaytext"></div>
+        </div>
+        </div>
+        <div><a href="index.html">Viewmore->></a></div>
+        <footer>
+            <a href="contact.html">ContactUs</a>
         <div >
             <!--Footer div-->
             <a href="https://www.facebook.com" target="_blank"><img src="assests/images/facebook.png"  alt="" height="20px" width="22px"></a>
@@ -46,6 +62,7 @@
             <p>@ 2022 ROOM SEARCH PVT.LTD</p>
         </div>
         </div>
+    </footer>
     </header>
 </body>
 </html> 
