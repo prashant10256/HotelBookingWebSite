@@ -26,7 +26,13 @@ footer{
     background-color: rosybrown;
 }
 .content{
-    margin-left: 2%;
+    background-color: rosybrown;
+    margin-left: 12%;
+    border:1px solid black ;
+    border-radius: 5px;
+    margin-right: 5%;
+    padding-right: 2%;
+    padding-left: 2%;
 }
 .content2{
     margin: 3%;
@@ -53,4 +59,7 @@ footer{
     margin-left: 95%;
     align-items: center;
 }
-
+.para{
+    padding-left: 35%;
+    text-align: center;
+}

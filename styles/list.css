@@ -32,7 +32,7 @@ hotel-imgage
 { 
     height: 200px; 
     width: 250px; 
- 
+   
 } 
 #list-view 
 { 
@@ -40,7 +40,7 @@ hotel-imgage
 } 
 .imageContainer 
 { 
-    background-color:rgb(132,136,139); 
+    background-color: lightgray;
     width: 40%; 
 }
 .logo-img{
@@ -62,6 +62,20 @@ footer{
     
 }
 .img-row{
-    margin-left: 60%;
     flex-direction: row;
+
+}
+
+.socialImg{
+    margin-left: 95%;
+    
+}
+.imagshift{
+    margin-left: 30%;
+    background-color: lightgray;
+    text-align: top;
+}
+#textplace{
+    margin-left:45%;
+    display: flex;
 }
