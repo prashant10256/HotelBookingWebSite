@@ -36,6 +36,8 @@ padding-bottom: 20px;
     width: fit-content;
     height: fit-content;
     position: relative;
+    justify-content:space-evenly;
+    margin-left: 13%;
 }
 #header-login{
     margin-left: 95%;
@@ -97,7 +99,21 @@ align-items: center;
 }
 .view{
     text-align: center;
-    margin-left: 45%;
-    padding-top: 10%;
+     margin-left: 45%;
+    padding-top: 10%; 
+
+}
+
+.city-cards-div2{
+    margin: 3% 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+padding-bottom: 20px;
+}
+#button{
+    height: 400%;
+    width: 8%;
+    background-color: gray;
 }
 
