@@ -71,11 +71,12 @@ align-items: center;
 #header-logo{
     margin-left: 2%;
     margin-right: auto;
+    margin-top: 3%;
 
 }
 .con{
     margin-left: 2%;
-    margin-bottom: 2%;
+    margin-bottom: 20%;
     align-items: center;
 }
 .overlaytext{
@@ -91,6 +92,8 @@ align-items: center;
     justify-content: center;
     align-items: center;
     color: #f1f1f1;
+    cursor: pointer;
+    
 }
 .city-cards-div{
     margin: 3% 5%;
@@ -116,4 +119,18 @@ padding-bottom: 20px;
     width: 8%;
     background-color: gray;
 }
+#loginButton{
+    height: 50px;
+    width: 80px;
+    align-items: center;
+    margin-bottom: 3%;
+    margin-right: 80%;
+}
+#boo{
+    margin-top: 3%;
+    border-radius: 2%; 
+    text-size-adjust: 2px;
+    background-color:lightblue;
+}
+
 

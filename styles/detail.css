@@ -23,8 +23,11 @@ footer{
 #login{
     margin-left: 95%;
 }
-.contact{
-    margin-bottom: 10%;
+#contact{
+    margin-top: 5%;
+    border-radius: 5%;
+    background-color: black;
+    background-color: aqua;
     
 }
 .imgalign{

@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="">
     <link rel="stylesheet" href="./style/login.html">
     <link rel="stylesheet" href="./styles/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <title>Index</title>
 </head>
 <body>
@@ -14,9 +16,9 @@
     <header>
         <div class="header-div">
            <div id="logo-div"><img id="header-logo" src="assests/images/logo.png"alt="logo" height="60px" width="60px">
-           <div id="login-div"><a href="login.html"><p id="header-login">Login</p></a></div>
+           <div id="login-div"><a href="login.html" target="index.html"><p id="header-login"> <button id="loginButton">LOGIN</button></p></a></div>
            <div class="search-bar-and-background-image-div" ><input id="search-bar-input" type="text" placeholder="City"><br>
-           
+           </div>
         <div id="search-result">
             </div>
             </div>
@@ -59,7 +61,7 @@
         <div><a class="view" href="index.html"> <button id="button">Viewmore</button></a></div>
         <footer>
             <div class="contactus">
-                <p><a class="con" href="contact.html">Contact Us</a></p>
+                <p><a class="con" href="contact.html"> <button id="boo">ContactUs</button> </a></p>
             </div>
         <div >
             
